@@ -12,3 +12,10 @@ target 'ExampleDylib' do
 
 end
 
+pre_install do |installer|
+  host_target = installer.aggregate_targets.find { |aggregate_target| !aggregate_target.requires_host_target? }
+  host_target.user_build_configurations.keys.each do |config|
+    host_target.pod_targets_for_build_configuration(config).delete_if { |pod_target| pod_target.framework_paths.values.flatten.empty? }
+  end
+end
+

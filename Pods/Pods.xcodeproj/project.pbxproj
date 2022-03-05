@@ -33,13 +33,13 @@
 		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC02215AC2DD7EA264ED82189A1AEB0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6073833A5338343D308F0A0DA0378E /* MASLayoutConstraint.m */; };
 		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C324CE2ECC742667A17565580D47BB /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3B09618226AEECB342FC74ABB30C099E /* Pods-ExampleDylib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7086C864DDABAAC1E0D50989D3F579D5 /* Pods-ExampleDylib-dummy.m */; };
+		3B09618226AEECB342FC74ABB30C099E /* Pods-ExampleDylib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8E8E6AF60B97E7997CD117D2073DEA /* Pods-ExampleDylib-dummy.m */; };
 		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED85716CEB7835568B67A9DC095318F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D917A40AF65F7CC89A118B3C19E9146 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750ED70BF06C089B8D2FF7D5F6B4F52 /* MASConstraintMaker.m */; };
 		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A808E81ACB827471F94EB573D820EF6C /* NSArray+MASAdditions.m */; };
 		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 322A5744C2439205D11BF4D2240BC1CD /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81B439416747A72598022C7EBD5221F4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AEBD0D89D71F37C0EA97809FA83C22 /* Pods-Example-dummy.m */; };
+		81B439416747A72598022C7EBD5221F4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DAD80EBBEE85BED66B0A5A07ED21B /* Pods-Example-dummy.m */; };
 		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F878D7A6CC8A4BCE2253F6E3B8ECE506 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A12B4F3574063803DC56F33D3F2664C0 /* MASViewAttribute.m */; };
 		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF75FC3C5A4D22919B1BA024FDC666A /* MASCompositeConstraint.m */; };
@@ -105,34 +105,33 @@
 
 /* Begin PBXFileReference section */
 		00C324CE2ECC742667A17565580D47BB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		07ADCA360876C45474973EA6FA3BA54D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		07FCED7EE12C727F9A32C1FCA4570169 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		08D589E15BEA1BB38B457EC5F10DC2CC /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		0AF1C5F6C317F55A956DA2831A1B389A /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		0E8C88229B7E8AEE98D913EB7785227F /* Pods-ExampleDylib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleDylib-resources.sh"; sourceTree = "<group>"; };
+		0DE2F5E4A75D61A138FDEB1F4542E209 /* Pods-ExampleDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleDylib.release.xcconfig"; sourceTree = "<group>"; };
 		1176567BE68F7119867864412791461C /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		1217F1C25CDED9F50624972A38234661 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		152674D8F4FA73D43216E5B7CE6DBD70 /* Pods-ExampleDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleDylib.release.xcconfig"; sourceTree = "<group>"; };
 		1905A1770B5C8D26AE47AAA2B2ADB836 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Example"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Masonry; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AFEAFFD6052F12F8ABB1748704D2BB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		2BF11292C951220741E305B3B04A373E /* Pods-ExampleDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		257504324599A462AED9E3D1C89F4DD1 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		2E9AE946BCD527C87DE7E27CEB250DB8 /* LookinServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.debug.xcconfig; sourceTree = "<group>"; };
 		2EAC4EAFF9C057F0098D7F88F15D4A06 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		322A5744C2439205D11BF4D2240BC1CD /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		3315E0B567B1E949359DAFE9B3D1A3EB /* Weibo_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weibo_SDK.release.xcconfig; sourceTree = "<group>"; };
-		574A4F1FA97536F0F92D116A18DC2A1F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DFFE716F9FED9E32A7E3EE3DFD064C0 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		579D60801341C746968B129A44BF0717 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5ED928874F7684BFC2940A2A2FB32D93 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		620CE6A6DC2EAFADEF18E02F6D928F6E /* LookinServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LookinServer.framework; sourceTree = "<group>"; };
-		64AEBD0D89D71F37C0EA97809FA83C22 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		6750ED70BF06C089B8D2FF7D5F6B4F52 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		695FB22C10E7A1E75777229A6830359C /* Pods-ExampleDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleDylib.debug.xcconfig"; sourceTree = "<group>"; };
 		6BF3A1AF7612F3E1DA54F9470DB4B057 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		6E04358D6E3B48C8186245FCB97CDEA7 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		7086C864DDABAAC1E0D50989D3F579D5 /* Pods-ExampleDylib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleDylib-dummy.m"; sourceTree = "<group>"; };
 		71CD5F028EEDE6B83946DD57DF83CED0 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		72299ABE238CFB84446DD6B18DA51D0A /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81E528A17900FC34A1B93706F58D2D90 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8D917A40AF65F7CC89A118B3C19E9146 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		944FF492D76576C3E91617C37518371F /* Pods-ExampleDylib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleDylib-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95232875179F82CCCE7A03E2D93625F9 /* Pods-ExampleDylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ExampleDylib"; path = "libPods-ExampleDylib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED85716CEB7835568B67A9DC095318F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
@@ -140,24 +139,24 @@
 		A166C3EEC0955610A6E7D53332E5B9D3 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		A7CA59AA8F687E7C408B39718A972992 /* LookinServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.release.xcconfig; sourceTree = "<group>"; };
 		A808E81ACB827471F94EB573D820EF6C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		AD8719CC4B26AC089AD9280C9BB49B08 /* Pods-ExampleDylib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleDylib-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE67CEBD8CDA9525AFB9641491D7A51D /* Pods-ExampleDylib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleDylib-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE7498927399EEC08CB6F7069993460C /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		B50B8EA97B5C2ED14A7513D172BB91DC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		B511591A25FC801BAF6F9E0679A4177A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B765545B95347023BE0456B4D32FC5CA /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		BCD2482CB09E10EADF4B7FE1C1EBF774 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
 		BEC02215AC2DD7EA264ED82189A1AEB0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		BEC8DAD98EB57A74EFA59A92461019F4 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		BEF75FC3C5A4D22919B1BA024FDC666A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		C5B0A966F032CE8975BD0DCD22B86074 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		CE933CBAC04BE1FF1048EABB8459F818 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CFBBA697B6276FA4870577F6991D7858 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E60C2C2CC000B77395BAAC03DD64B106 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		E623243489342FB29562AB97559D517D /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		EF80C5273DE275CEBED53DC0151C67BF /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE8508F1B328692F02C60AAA531CF90E /* Pods-ExampleDylib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleDylib-resources.sh"; sourceTree = "<group>"; };
 		F6323BAA9E152160AA4158C9A58569F6 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		F84DAD80EBBEE85BED66B0A5A07ED21B /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		F878D7A6CC8A4BCE2253F6E3B8ECE506 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		F992ED8569DCA60D1C4FA40E0A843810 /* Weibo_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weibo_SDK.debug.xcconfig; sourceTree = "<group>"; };
-		FA8850D373A8728AE5A180E4DCFA5F69 /* Pods-ExampleDylib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleDylib-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA8E8E6AF60B97E7997CD117D2073DEA /* Pods-ExampleDylib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleDylib-dummy.m"; sourceTree = "<group>"; };
 		FB6073833A5338343D308F0A0DA0378E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,21 +185,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		014F95F520E53689FD12012A29BC18AB /* Pods-Example */ = {
-			isa = PBXGroup;
-			children = (
-				72299ABE238CFB84446DD6B18DA51D0A /* Pods-Example-acknowledgements.markdown */,
-				574A4F1FA97536F0F92D116A18DC2A1F /* Pods-Example-acknowledgements.plist */,
-				64AEBD0D89D71F37C0EA97809FA83C22 /* Pods-Example-dummy.m */,
-				1217F1C25CDED9F50624972A38234661 /* Pods-Example-frameworks.sh */,
-				E60C2C2CC000B77395BAAC03DD64B106 /* Pods-Example-resources.sh */,
-				B511591A25FC801BAF6F9E0679A4177A /* Pods-Example.debug.xcconfig */,
-				EF80C5273DE275CEBED53DC0151C67BF /* Pods-Example.release.xcconfig */,
-			);
-			name = "Pods-Example";
-			path = "Target Support Files/Pods-Example";
-			sourceTree = "<group>";
-		};
 		0AF5F8901AD4FE7EB6CAAA6B87B9879D /* Weibo_SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,20 +228,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		6596EAC51585A26BDC712D446CF7E56E /* Pods-ExampleDylib */ = {
-			isa = PBXGroup;
-			children = (
-				AD8719CC4B26AC089AD9280C9BB49B08 /* Pods-ExampleDylib-acknowledgements.markdown */,
-				FA8850D373A8728AE5A180E4DCFA5F69 /* Pods-ExampleDylib-acknowledgements.plist */,
-				7086C864DDABAAC1E0D50989D3F579D5 /* Pods-ExampleDylib-dummy.m */,
-				0E8C88229B7E8AEE98D913EB7785227F /* Pods-ExampleDylib-resources.sh */,
-				2BF11292C951220741E305B3B04A373E /* Pods-ExampleDylib.debug.xcconfig */,
-				152674D8F4FA73D43216E5B7CE6DBD70 /* Pods-ExampleDylib.release.xcconfig */,
-			);
-			name = "Pods-ExampleDylib";
-			path = "Target Support Files/Pods-ExampleDylib";
 			sourceTree = "<group>";
 		};
 		7C418B01AADEC3226DFD50603BF2CEC6 /* Products */ = {
@@ -314,13 +284,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A09F8BBAF0B964F4275B03343E7B29A8 /* Targets Support Files */ = {
+		A17BDB244F9A4C6B8A6E15B292842DDC /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				014F95F520E53689FD12012A29BC18AB /* Pods-Example */,
-				6596EAC51585A26BDC712D446CF7E56E /* Pods-ExampleDylib */,
+				579D60801341C746968B129A44BF0717 /* Pods-Example-acknowledgements.markdown */,
+				3DFFE716F9FED9E32A7E3EE3DFD064C0 /* Pods-Example-acknowledgements.plist */,
+				F84DAD80EBBEE85BED66B0A5A07ED21B /* Pods-Example-dummy.m */,
+				257504324599A462AED9E3D1C89F4DD1 /* Pods-Example-frameworks.sh */,
+				CE933CBAC04BE1FF1048EABB8459F818 /* Pods-Example.debug.xcconfig */,
+				07ADCA360876C45474973EA6FA3BA54D /* Pods-Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
 		A76D6BB15FC4A68973C0212C46724AF4 /* Support Files */ = {
@@ -331,6 +306,20 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LookinServer";
+			sourceTree = "<group>";
+		};
+		B21C04ED7D272A2623869AF00711EB55 /* Pods-ExampleDylib */ = {
+			isa = PBXGroup;
+			children = (
+				944FF492D76576C3E91617C37518371F /* Pods-ExampleDylib-acknowledgements.markdown */,
+				AE67CEBD8CDA9525AFB9641491D7A51D /* Pods-ExampleDylib-acknowledgements.plist */,
+				FA8E8E6AF60B97E7997CD117D2073DEA /* Pods-ExampleDylib-dummy.m */,
+				EE8508F1B328692F02C60AAA531CF90E /* Pods-ExampleDylib-resources.sh */,
+				695FB22C10E7A1E75777229A6830359C /* Pods-ExampleDylib.debug.xcconfig */,
+				0DE2F5E4A75D61A138FDEB1F4542E209 /* Pods-ExampleDylib.release.xcconfig */,
+			);
+			name = "Pods-ExampleDylib";
+			path = "Target Support Files/Pods-ExampleDylib";
 			sourceTree = "<group>";
 		};
 		C1D9D386FFC125971576018A1FCA90A4 /* Frameworks */ = {
@@ -356,7 +345,7 @@
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				8FBABB1410F05C0F28ACB9AB44899067 /* Pods */,
 				7C418B01AADEC3226DFD50603BF2CEC6 /* Products */,
-				A09F8BBAF0B964F4275B03343E7B29A8 /* Targets Support Files */,
+				EA936515479E1D5BB0C5A92AC8DE5E9A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -373,6 +362,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA936515479E1D5BB0C5A92AC8DE5E9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17BDB244F9A4C6B8A6E15B292842DDC /* Pods-Example */,
+				B21C04ED7D272A2623869AF00711EB55 /* Pods-ExampleDylib */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -725,7 +723,7 @@
 		};
 		841EBD8992995366EFADA30D7A812DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 152674D8F4FA73D43216E5B7CE6DBD70 /* Pods-ExampleDylib.release.xcconfig */;
+			baseConfigurationReference = 0DE2F5E4A75D61A138FDEB1F4542E209 /* Pods-ExampleDylib.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -845,7 +843,7 @@
 		};
 		DEE9D6EC51EF0B5CC14C0A5AA9650460 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B511591A25FC801BAF6F9E0679A4177A /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = CE933CBAC04BE1FF1048EABB8459F818 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -866,7 +864,7 @@
 		};
 		E8496BC5059BB13BB9DC350BE1B9C30A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF80C5273DE275CEBED53DC0151C67BF /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 07ADCA360876C45474973EA6FA3BA54D /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -888,7 +886,7 @@
 		};
 		FB81A42FEAA6394DB751AE6772D71E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BF11292C951220741E305B3B04A373E /* Pods-ExampleDylib.debug.xcconfig */;
+			baseConfigurationReference = 695FB22C10E7A1E75777229A6830359C /* Pods-ExampleDylib.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
