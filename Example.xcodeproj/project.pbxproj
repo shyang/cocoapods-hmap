@@ -7,28 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD13578127D320B70054F9AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13578027D320B70054F9AB /* AppDelegate.m */; };
-		AD13578427D320B70054F9AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13578327D320B70054F9AB /* SceneDelegate.m */; };
-		AD13578727D320B70054F9AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13578627D320B70054F9AB /* ViewController.m */; };
-		AD13578A27D320B70054F9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD13578827D320B70054F9AB /* Main.storyboard */; };
+		35DA7CA7C9FCCAA95A303110 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA22287C3BCB52F14C75A5F1 /* libPods-Example.a */; };
+		9613C4E5E9819979CAAA676F /* libPods-ExampleDylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E40C624955A6FD416A0257 /* libPods-ExampleDylib.a */; };
 		AD13578C27D320B80054F9AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD13578B27D320B80054F9AB /* Assets.xcassets */; };
 		AD13578F27D320B80054F9AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD13578D27D320B80054F9AB /* LaunchScreen.storyboard */; };
 		AD13579227D320B80054F9AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13579127D320B80054F9AB /* main.m */; };
+		AD135D4C27D332B60054F9AB /* ExampleDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = AD135D4B27D332B60054F9AB /* ExampleDylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD135D4F27D332B60054F9AB /* ExampleDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD135D4927D332B60054F9AB /* ExampleDylib.framework */; };
+		AD135D5027D332B60054F9AB /* ExampleDylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD135D4927D332B60054F9AB /* ExampleDylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD135D5527D3332F0054F9AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13578027D320B70054F9AB /* AppDelegate.m */; };
+		AD135D5627D3332F0054F9AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD13578627D320B70054F9AB /* ViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD135D4D27D332B60054F9AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD13577427D320B70054F9AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD135D4827D332B60054F9AB;
+			remoteInfo = ExampleDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD135D5127D332B60054F9AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD135D5027D332B60054F9AB /* ExampleDylib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		74E40C624955A6FD416A0257 /* libPods-ExampleDylib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleDylib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39570B34D01F5D83A7C278 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD13577C27D320B70054F9AB /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD13577F27D320B70054F9AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD13578027D320B70054F9AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD13578227D320B70054F9AB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		AD13578327D320B70054F9AB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		AD13578527D320B70054F9AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD13578627D320B70054F9AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD13578927D320B70054F9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD13578B27D320B80054F9AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD13578E27D320B80054F9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD13579027D320B80054F9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD13579127D320B80054F9AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD135D4927D332B60054F9AB /* ExampleDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD135D4B27D332B60054F9AB /* ExampleDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDylib.h; sourceTree = "<group>"; };
+		C4F66C80B3E180E7E737B080 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3E1EA684F88CC8518209BB /* Pods-ExampleDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleDylib.release.xcconfig"; path = "Target Support Files/Pods-ExampleDylib/Pods-ExampleDylib.release.xcconfig"; sourceTree = "<group>"; };
+		F186EBE4C5E8B1153C70FB10 /* Pods-ExampleDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleDylib.debug.xcconfig"; path = "Target Support Files/Pods-ExampleDylib/Pods-ExampleDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		FA22287C3BCB52F14C75A5F1 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD135D4F27D332B60054F9AB /* ExampleDylib.framework in Frameworks */,
+				35DA7CA7C9FCCAA95A303110 /* libPods-Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD135D4627D332B60054F9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9613C4E5E9819979CAAA676F /* libPods-ExampleDylib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				AD13577E27D320B70054F9AB /* Example */,
+				AD135D4A27D332B60054F9AB /* ExampleDylib */,
 				AD13577D27D320B70054F9AB /* Products */,
+				DFC0E960153CF32A27FD04D0 /* Pods */,
+				BBF067F1919E0E50BFE09AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				AD13577C27D320B70054F9AB /* Example.app */,
+				AD135D4927D332B60054F9AB /* ExampleDylib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,13 +107,6 @@
 		AD13577E27D320B70054F9AB /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				AD13577F27D320B70054F9AB /* AppDelegate.h */,
-				AD13578027D320B70054F9AB /* AppDelegate.m */,
-				AD13578227D320B70054F9AB /* SceneDelegate.h */,
-				AD13578327D320B70054F9AB /* SceneDelegate.m */,
-				AD13578527D320B70054F9AB /* ViewController.h */,
-				AD13578627D320B70054F9AB /* ViewController.m */,
-				AD13578827D320B70054F9AB /* Main.storyboard */,
 				AD13578B27D320B80054F9AB /* Assets.xcassets */,
 				AD13578D27D320B80054F9AB /* LaunchScreen.storyboard */,
 				AD13579027D320B80054F9AB /* Info.plist */,
@@ -76,25 +115,93 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		AD135D4A27D332B60054F9AB /* ExampleDylib */ = {
+			isa = PBXGroup;
+			children = (
+				AD13577F27D320B70054F9AB /* AppDelegate.h */,
+				AD13578027D320B70054F9AB /* AppDelegate.m */,
+				AD13578527D320B70054F9AB /* ViewController.h */,
+				AD13578627D320B70054F9AB /* ViewController.m */,
+				AD135D4B27D332B60054F9AB /* ExampleDylib.h */,
+			);
+			path = ExampleDylib;
+			sourceTree = "<group>";
+		};
+		BBF067F1919E0E50BFE09AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA22287C3BCB52F14C75A5F1 /* libPods-Example.a */,
+				74E40C624955A6FD416A0257 /* libPods-ExampleDylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFC0E960153CF32A27FD04D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4F66C80B3E180E7E737B080 /* Pods-Example.debug.xcconfig */,
+				7A39570B34D01F5D83A7C278 /* Pods-Example.release.xcconfig */,
+				F186EBE4C5E8B1153C70FB10 /* Pods-ExampleDylib.debug.xcconfig */,
+				DC3E1EA684F88CC8518209BB /* Pods-ExampleDylib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD135D4427D332B60054F9AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD135D4C27D332B60054F9AB /* ExampleDylib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AD13577B27D320B70054F9AB /* Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD13579527D320B80054F9AB /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				13EC3F3296F684F71CD517C6 /* [CP] Check Pods Manifest.lock */,
 				AD13577827D320B70054F9AB /* Sources */,
 				AD13577927D320B70054F9AB /* Frameworks */,
 				AD13577A27D320B70054F9AB /* Resources */,
+				B8C3F260C5DFDF5DEDD1D599 /* [CP] Embed Pods Frameworks */,
+				AD135D5127D332B60054F9AB /* Embed Frameworks */,
+				F78073FA63A89AA9905DB9D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AD135D4E27D332B60054F9AB /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
 			productReference = AD13577C27D320B70054F9AB /* Example.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AD135D4827D332B60054F9AB /* ExampleDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD135D5427D332B60054F9AB /* Build configuration list for PBXNativeTarget "ExampleDylib" */;
+			buildPhases = (
+				6C0FE28DF43CDAF81BA8A64B /* [CP] Check Pods Manifest.lock */,
+				AD135D4427D332B60054F9AB /* Headers */,
+				AD135D4527D332B60054F9AB /* Sources */,
+				AD135D4627D332B60054F9AB /* Frameworks */,
+				AD135D4727D332B60054F9AB /* Resources */,
+				B720256F0FB0773F80285DBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleDylib;
+			productName = ExampleDylib;
+			productReference = AD135D4927D332B60054F9AB /* ExampleDylib.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +213,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					AD13577B27D320B70054F9AB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AD135D4827D332B60054F9AB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -124,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				AD13577B27D320B70054F9AB /* Example */,
+				AD135D4827D332B60054F9AB /* ExampleDylib */,
 			);
 		};
 /* End PBXProject section */
@@ -135,35 +246,145 @@
 			files = (
 				AD13578F27D320B80054F9AB /* LaunchScreen.storyboard in Resources */,
 				AD13578C27D320B80054F9AB /* Assets.xcassets in Resources */,
-				AD13578A27D320B70054F9AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD135D4727D332B60054F9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EC3F3296F684F71CD517C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0FE28DF43CDAF81BA8A64B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B720256F0FB0773F80285DBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleDylib/Pods-ExampleDylib-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleDylib/Pods-ExampleDylib-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleDylib/Pods-ExampleDylib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C3F260C5DFDF5DEDD1D599 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78073FA63A89AA9905DB9D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD13577827D320B70054F9AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD13578727D320B70054F9AB /* ViewController.m in Sources */,
-				AD13578127D320B70054F9AB /* AppDelegate.m in Sources */,
 				AD13579227D320B80054F9AB /* main.m in Sources */,
-				AD13578427D320B70054F9AB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD135D4527D332B60054F9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD135D5627D3332F0054F9AB /* ViewController.m in Sources */,
+				AD135D5527D3332F0054F9AB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		AD13578827D320B70054F9AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD13578927D320B70054F9AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		AD135D4E27D332B60054F9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD135D4827D332B60054F9AB /* ExampleDylib */;
+			targetProxy = AD135D4D27D332B60054F9AB /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		AD13578D27D320B80054F9AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +510,7 @@
 		};
 		AD13579627D320B80054F9AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F66C80B3E180E7E737B080 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,7 +520,6 @@
 				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +536,7 @@
 		};
 		AD13579727D320B80054F9AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A39570B34D01F5D83A7C278 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +546,6 @@
 				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,6 +557,64 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD135D5227D332B60054F9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F186EBE4C5E8B1153C70FB10 /* Pods-ExampleDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.un.ExampleDylib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD135D5327D332B60054F9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3E1EA684F88CC8518209BB /* Pods-ExampleDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.un.ExampleDylib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -356,6 +635,15 @@
 			buildConfigurations = (
 				AD13579627D320B80054F9AB /* Debug */,
 				AD13579727D320B80054F9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD135D5427D332B60054F9AB /* Build configuration list for PBXNativeTarget "ExampleDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD135D5227D332B60054F9AB /* Debug */,
+				AD135D5327D332B60054F9AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

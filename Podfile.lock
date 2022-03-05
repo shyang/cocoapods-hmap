@@ -1,0 +1,32 @@
+PODS:
+  - LookinServer (1.0.0)
+  - Masonry (1.1.0)
+  - Weibo_SDK (3.3.2)
+
+DEPENDENCIES:
+  - LookinServer (= 1.0.0)
+  - Masonry
+  - Weibo_SDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+    - Masonry
+
+EXTERNAL SOURCES:
+  Weibo_SDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  Weibo_SDK:
+    :commit: 7038ba42afdf795e0d4cc92f2692a6562ed85fa6
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Weibo_SDK: 13a4e9b78db64f56eb68bfe4badde82750bb292f
+
+PODFILE CHECKSUM: 70c4e59c6aa1b29c9044834ae1ca9e791206e700
+
+COCOAPODS: 1.11.2
