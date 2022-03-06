@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'cocoapods'
-gem 'cocoapods-hmap', :path => 'cocoapods-hmap'
+gem 'cocoapods-hmap-simple', :path => 'cocoapods-hmap-simple'
 

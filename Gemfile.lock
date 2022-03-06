@@ -1,7 +1,7 @@
 PATH
-  remote: cocoapods-hmap
+  remote: cocoapods-hmap-simple
   specs:
-    cocoapods-hmap (1.0.0)
+    cocoapods-hmap-simple (1.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -93,11 +93,12 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  x86_64-darwin-19
   x86_64-darwin-20
 
 DEPENDENCIES
   cocoapods
-  cocoapods-hmap!
+  cocoapods-hmap-simple!
 
 BUNDLED WITH
    2.3.7
