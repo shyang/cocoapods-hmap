@@ -68,7 +68,11 @@ module Pod
         return md5_string
       end
 
-      handle_target_with_settings = -> hmap_md5, xcconfig, xcconfig_path do
+      handle_target_with_settings = -> hmap_md5, target, config do
+        return if hmap_md5.blank?
+
+        xcconfig_path = target.xcconfig_path(config)
+        xcconfig = Xcodeproj::Config.new(xcconfig_path)
 
         hmap_path = File.expand_path("Headers/hmap/#{hmap_md5}.hmap", installer.sandbox.root.to_s)
         return unless File.exist?(hmap_path)
@@ -92,11 +96,7 @@ module Pod
         aggregate_target.user_build_configurations.each_key do |config| # "Debug" => :debug
           build_settings = aggregate_target.build_settings(config) # AggregateTargetSettings
           hmap_md5 = create_hmap.call(build_settings)
-          next if hmap_md5.blank?
-
-          xcconfig_path = aggregate_target.xcconfig_path(config)
-          xcconfig = aggregate_target.xcconfigs[config]
-          handle_target_with_settings.call(hmap_md5, xcconfig, xcconfig_path)
+          handle_target_with_settings.call(hmap_md5, aggregate_target, config)
         end
       end
 
@@ -104,11 +104,7 @@ module Pod
         UI.message "convert hmap for pod_target #{pod_target}"
         pod_target.build_settings.each do |config, build_settings| # "Debug" => PodTargetSettings
           hmap_md5 = create_hmap.call(build_settings)
-          next if hmap_md5.blank?
-
-          xcconfig_path = pod_target.xcconfig_path(config)
-          xcconfig = Xcodeproj::Config.new(xcconfig_path)
-          handle_target_with_settings.call(hmap_md5, xcconfig, xcconfig_path)
+          handle_target_with_settings.call(hmap_md5, pod_target, config)
         end
       end
     end

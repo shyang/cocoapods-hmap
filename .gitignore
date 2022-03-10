@@ -1,6 +1,7 @@
 xcuserdata
 .bundle
 .idea
+*.gem
 
 Pods/Headers/hmap
 

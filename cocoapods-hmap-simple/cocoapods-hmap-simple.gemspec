@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "cocoapods-hmap-simple"
-  spec.version = '1.0.1'
+  spec.version = '1.0.2'
   spec.authors = ["shyang"]
   spec.email = ["shaohua0110@yahoo.com"]
 
