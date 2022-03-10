@@ -6,7 +6,7 @@ combining "${PODS_ROOT}/Headers/Public/*" to a single hmap. (not including ${POD
 module Pod
   class HmapHelper
     def self.post_install(installer)
-      to_remove = -> path { path.include?("${PODS_ROOT}/Headers/Public/") }
+      to_remove = -> path { path.include?("${PODS_ROOT}/Headers/Public/") || path.include?("${PODS_ROOT}/Headers/hmap/") }
 
       headers_for_path = -> path do
         @cached_headers ||= {}
@@ -72,6 +72,7 @@ module Pod
         return if hmap_md5.blank?
 
         xcconfig_path = target.xcconfig_path(config)
+        return unless File.exist?(xcconfig_path)
         xcconfig = Xcodeproj::Config.new(xcconfig_path)
 
         hmap_path = File.expand_path("Headers/hmap/#{hmap_md5}.hmap", installer.sandbox.root.to_s)
